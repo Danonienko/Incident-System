@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lviv.TestAssignment.Database", "Lviv.TestAssignment.Database\Lviv.TestAssignment.Database.csproj", "{896DBDC5-8202-439C-A996-F4037128365C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lviv.TestAssignment.WebAPI", "Lviv.TestAssignment.WebAPI\Lviv.TestAssignment.WebAPI.csproj", "{B1B1B541-5B98-4F4D-9180-CA61E18C16C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{896DBDC5-8202-439C-A996-F4037128365C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{896DBDC5-8202-439C-A996-F4037128365C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{896DBDC5-8202-439C-A996-F4037128365C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{896DBDC5-8202-439C-A996-F4037128365C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B1B541-5B98-4F4D-9180-CA61E18C16C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B1B541-5B98-4F4D-9180-CA61E18C16C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B1B541-5B98-4F4D-9180-CA61E18C16C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B1B541-5B98-4F4D-9180-CA61E18C16C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10AD09C4-4958-43D7-9039-BF5B2D25B277}
+	EndGlobalSection
+EndGlobal

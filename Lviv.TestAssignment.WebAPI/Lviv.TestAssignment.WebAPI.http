@@ -1,0 +1,43 @@
+@address = http://localhost:5249/api
+
+POST {{address}}/Contacts
+Accept: application/json
+Content-Type: application/json
+{
+  "firstName": "Daniil",
+  "lastName": "Onyshchenko",
+  "email": "Danonienko8@gmail.com"
+}
+###
+
+POST {{address}}/Accounts/1
+Accept: application/json
+Content-Type: application/json
+{
+  "name": "Danonienko"
+}
+###
+
+POST {{address}}/Incidents
+Accept: application/json
+Content-Type: application/json
+{
+  "accountName": "Danonienko",
+  "contactFirstName": "Daniil",
+  "contactLastName": "Onyshchenko",
+  "contactEmail": "Danonienko8@gmail.com",
+  "incidentDescription": "Houston, we have a problem!"
+}
+###
+
+POST {{address}}/Incidents
+Accept: application/json
+Content-Type: application/json
+{
+  "accountName": "Danonienko",
+  "contactFirstName": "Daniil",
+  "contactLastName": "Onyshchenko",
+  "contactEmail": "Daniel2003@i.ua",
+  "incidentDescription": "Houston, we have a problem!"
+}
+###
