@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Lviv.TestAssignment.Database;
-using Lviv.TestAssignment.Database.Entities;
+using Lviv.TestAssignment.WebAPI.Entities;
 
 namespace Lviv.TestAssignment.WebAPI.Controllers
 {

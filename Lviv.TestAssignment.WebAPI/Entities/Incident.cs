@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Lviv.TestAssignment.Database.Entities
+namespace Lviv.TestAssignment.WebAPI.Entities
 {
     public class Incident
     {

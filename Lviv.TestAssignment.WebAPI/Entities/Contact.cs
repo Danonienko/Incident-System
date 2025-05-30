@@ -1,8 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Lviv.TestAssignment.Database.Entities
+namespace Lviv.TestAssignment.WebAPI.Entities
 {
     [Index(nameof(Email), IsUnique = true)]
     public class Contact

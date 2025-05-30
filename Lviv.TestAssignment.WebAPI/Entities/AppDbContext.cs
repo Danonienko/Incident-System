@@ -1,7 +1,6 @@
-﻿using Lviv.TestAssignment.Database.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace Lviv.TestAssignment.Database
+namespace Lviv.TestAssignment.WebAPI.Entities
 {
     public class AppDbContext(DbContextOptions options) : DbContext(options)
     {

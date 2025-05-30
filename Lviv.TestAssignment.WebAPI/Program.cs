@@ -1,5 +1,4 @@
-
-using Lviv.TestAssignment.Database;
+using Lviv.TestAssignment.WebAPI.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Lviv.TestAssignment.WebAPI

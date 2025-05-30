@@ -1,5 +1,4 @@
-﻿using Lviv.TestAssignment.Database;
-using Lviv.TestAssignment.Database.Entities;
+﻿using Lviv.TestAssignment.WebAPI.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

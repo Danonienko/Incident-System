@@ -2,7 +2,7 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace Lviv.TestAssignment.Database.Entities
+namespace Lviv.TestAssignment.WebAPI.Entities
 {
     [Index(nameof(Name), IsUnique = true)]
     public class Account
